@@ -14,4 +14,8 @@
   #include "IOCtrl_Pic1_V100.h" //PICÊ¾Àý°å1 V100°æ
 #endif 
 
+#ifdef SUPPORT_AVR1_V010
+  #include "IOCtrl_Avr1_V010.h" //AVR ÊµÑé°å
+#endif 
+
 #endif //#define __IOCTRL_H
