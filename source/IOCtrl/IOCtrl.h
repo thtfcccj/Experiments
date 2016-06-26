@@ -18,4 +18,8 @@
   #include "IOCtrl_Avr1_V010.h" //AVR 实验板
 #endif 
 
+#ifdef SUPPORT_M0_LPC_V010
+  #include "IOCtrl_M0Lpc1.h" //M0Lpc实验板1
+#endif 
+
 #endif //#define __IOCTRL_H
